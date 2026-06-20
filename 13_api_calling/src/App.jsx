@@ -4,7 +4,9 @@ const App = () =>{
 
   async function getData(){
     const response = await fetch('https://jsonplaceholder.typicode.com/todos/1') // wait till the api give respnse 
-    console.log(response);
+    const data = await response.json()
+
+    console.log(data)
   }
   return (
     <div className="">
