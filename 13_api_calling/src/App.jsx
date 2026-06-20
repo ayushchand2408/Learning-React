@@ -17,13 +17,6 @@ const App = () =>{
   //   // console.log(response.data)
   //   console.log(data);
   // }
-  
-  const getData = async () => {
-    // const response = await axios.get('https://jsonplaceholder.typicode.com/todos/1')
-    const {data} = await axios.get('https://jsonplaceholder.typicode.com/todos/1');//destructering
-    // console.log(response.data)
-    console.log(data);
-  }
   return (
     <div className="">
       <button onClick={getData}>Get Data</button>
