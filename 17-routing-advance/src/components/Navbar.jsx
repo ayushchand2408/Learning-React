@@ -7,6 +7,7 @@ function Navbar(){
         <div className="flex gap-8">
             <Link className="text-l font-bold" to= '/'> Home</Link>
             <Link className="text-l font-bold" to= '/about'> About</Link>
+            <Link className="text-l font-bold" to= '/courses'> Courses</Link>
             <Link className="text-l font-bold" to= '/product'> Product</Link>
 
         </div>
