@@ -1,0 +1,9 @@
+import React from "react";
+
+function Men(){
+    return <div className="">
+        <h1>Men Page</h1>
+    </div>
+}
+
+export default Men;
