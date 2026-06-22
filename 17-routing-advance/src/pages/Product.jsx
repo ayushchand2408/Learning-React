@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function Product(){
     return <div className="">
@@ -8,6 +8,7 @@ function Product(){
             <Link className="text-xl font-semigold" to='/product/women'>Women</Link>
 
         </div>
+        <Outlet/>
     </div>
 }
 
