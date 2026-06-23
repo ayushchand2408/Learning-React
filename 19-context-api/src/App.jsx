@@ -6,7 +6,11 @@ function App(){
 
   const [theme , setTheme] = useState('light');
   return <div className="container">
-    <Navbar theme={theme}/>
+    <Navbar theme={theme}>
+      <h1>Children 1</h1>
+      <h1>Children 2</h1>//passing children as props
+
+    </Navbar>
   
   </div>
 }
